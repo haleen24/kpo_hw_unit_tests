@@ -1,0 +1,14 @@
+GET localhost:8080/view
+###
+
+###
+POST localhost:8080/add
+Content-Type: application/json
+
+{
+  "title": "FIrst one",
+  "content": "I Should make some unit tests"
+}
+
+###
+DELETE localhost:8080/remove?id=1
